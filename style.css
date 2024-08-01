@@ -17,7 +17,7 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 section{
     padding: 2rem 9%;
@@ -136,7 +136,7 @@ header .fa-bars{
 }
 
 
-/* about_section stars here */
+/* === about_section stars here === */
 
 .about .row{
     display: flex;
@@ -190,4 +190,40 @@ header .fa-bars{
     padding-top: 1rem;
     line-height: 1.5;
 }
-/* about_section ends here */
+/* === about_section ends here ==== */
+
+/* === icons_section starts here === */
+.icons-container{
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.icons-container .icons{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex:1 1 22rem;
+
+}
+
+.icons-container .icons img{
+    height: 5rem;
+    margin-right: 2rem;
+}
+.icons-container .icons h3{
+    color: #333;
+    padding-bottom: .5rem;
+    font-size: 1.3rem;
+}
+.icons-container .icons span{
+    color: #555;
+    font-size: 1.10rem;
+}
+
+
+/* === icons_section starts here === */
